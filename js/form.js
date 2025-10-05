@@ -1,12 +1,12 @@
 // console.log("Form js included");
 
-// const ssl = "https"
-// const domain = "mockapi.draptor.in";
-// const pageId = "688d090ccd22f2af17e2979a"
+const ssl = "https"
+const domain = "mockapi.draptor.in";
+const pageId = "68e2edda03d7975ecbade3da"
 
-const ssl = "http"
-const domain = "localhost:8080";
-const pageId = "68e2d86803d7975ecbade3d1"
+// const ssl = "http"
+// const domain = "localhost:8080";
+// const pageId = "68e2d86803d7975ecbade3d1"
 
 document.getElementById('messageForm').addEventListener('submit', function(e) {
     e.preventDefault(); // ✅ Prevents page reload/redirect
