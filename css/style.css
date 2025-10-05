@@ -446,3 +446,26 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+/* Contact Styling */
+
+.contact-card {
+    border: 1px solid #FF6F0F;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+.contact-item i {
+    font-size: 24px;
+    color: #FF6F0F;
+}
+.contact-item span {
+    font-size: 16px;
+    color: #333;
+    margin-left: 15px;
+}
