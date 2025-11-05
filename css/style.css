@@ -82,6 +82,10 @@
     border-bottom: 1px solid rgba(255, 255, 255, .07);
 }
 
+.ft-navbar{
+    background-color: white;
+}
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -91,10 +95,14 @@
     margin-left: 8px;
 }
 
+.ftnav-toggler{
+    background-color: var(--dark) !important;
+}
+
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: #FFFFFF;
+    color: #000;
     font-weight: 500;
     outline: none;
 }
@@ -108,7 +116,7 @@
     .navbar .navbar-nav {
         margin-top: 10px;
         border-top: 1px solid rgba(0, 0, 0, .07);
-        background: var(--dark);
+        background: var(--light);
     }
 
     .navbar .navbar-nav .nav-link {
@@ -424,13 +432,13 @@
 }
 
 .footer .btn.btn-square {
-    color: rgba(255,255,255,0.5);
-    border: 1px solid rgba(255,255,255,0.5);
+    color: rgba(0,0,0,0.5);
+    border: 1px solid rgba(0,0,0,0.5);
 }
 
 .footer .btn.btn-square:hover {
-    color: var(--secondary);
-    border-color: var(--light);
+    color: var(--primary);
+    border-color: var(--primary);
 }
 
 .footer .copyright {
@@ -440,11 +448,24 @@
 }
 
 .footer .copyright a {
-    color: var(--secondary);
+    color: var(--dark) !important;
+    font-weight: bold;
 }
 
 .footer .copyright a:hover {
-    color: var(--primary);
+    color: var(--primary) !important;
+}
+
+.ntfooter-bg{
+    color:#F8F8F9
+}
+
+.ngfooter-title{
+    color: var(--dark)
+}
+
+.ngfooter-margin{
+    border-top:var(--primary) 5px solid;
 }
 
 /* Contact Styling */
